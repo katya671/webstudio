@@ -1,0 +1,171 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1160px;
+    }
+
+    /* -----------HERO DESCTOP----------- */
+
+    .header {
+        padding-top: 24px;
+        padding-bottom: 28px;
+    }
+
+    .header-list,
+    .address-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--dark-color);
+        transition: color var(--tra);
+    }
+
+    .header-mail,
+    .header-tel {
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-color);
+        transition: color var(--tra);
+    }
+
+    .header-link:hover, .header-mail:hover, .header-tel:hover,
+    .header-link:focus, .header-mail:focus, .header-tel:focus {
+        color: var(--action-color);
+    }
+
+    .current::after {
+        top: 47px;
+    }
+
+    /* -----------HERO DESCTOP----------- */
+
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 500px;
+        margin: 0 auto 48px;
+    }
+    
+    /* -----------FEATURES DESCTOP----------- */
+
+    .features {
+        padding-top: 120px;
+        padding-bottom: 0;
+    }
+
+    .features-list {
+        gap: 24px;
+    }
+    
+    .fearures-list-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    .features-icon-rectangle {
+        display: flex;
+        width: 100%;
+        height: 112px;
+        margin-bottom: 8px;
+        background-color: var(--light-color);
+        border-radius: 4px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features-list-item-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .features-list-item-text {
+        font-weight: 400;
+    }
+
+    /* -----------ABOUT DESCTOP----------- */
+    
+    .about {
+        background-color: var(--main-background-color);
+        padding-top: 120px;
+        padding-bottom: 120px;
+        display: block;
+    }
+
+    .about-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .about-item {
+        width: calc((100% - 48px) / 3);
+    }
+
+    /* -----------TEAM DESCTOP----------- */
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .container.container-mini {
+        max-width: 1160px;
+    }
+
+    .team-list {
+        gap: 24px;
+    }
+
+    .team-item {
+        width: calc((100% - 72px) / 4);
+    }
+
+    /* -----------CUSTOMERS DESCTOP----------- */
+    
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-item {
+        width: calc((100% - 120px) / 6);
+    }
+
+    /* -----------FOOTER DESCTOP----------- */
+
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 120px;
+        margin-right: 80px;
+    }
+
+    .footer-list-item {
+        display: block;
+        max-width: 264px;
+    }
+
+    .footer-subscribe {
+        align-items: flex-start;
+        width: auto;
+    }
+    
+}
