@@ -119,10 +119,6 @@
         padding-bottom: 120px;
     }
 
-    .container.container-mini {
-        max-width: 1160px;
-    }
-
     .team-list {
         gap: 24px;
     }
@@ -144,6 +140,11 @@
 
     /* -----------FOOTER DESCTOP----------- */
 
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
     .footer-container {
         display: flex;
         flex-direction: row;
@@ -156,6 +157,7 @@
         align-items: flex-start;
         gap: 120px;
         margin-right: 80px;
+        margin-bottom: 0;
     }
 
     .footer-list-item {
@@ -164,7 +166,6 @@
     }
 
     .footer-subscribe {
-        align-items: flex-start;
         width: auto;
     }
     

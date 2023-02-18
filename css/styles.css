@@ -307,7 +307,7 @@ body {
     padding-top: 96px;
     padding-bottom: 128px;
 }
-.container.container-mini {
+.team-container {
     max-width: 296px;
 }
 .team-list {
@@ -616,6 +616,7 @@ body {
     position: fixed;
     top: 0;
     transition: opacity var(--tra), visibility var(--tra);
+    overflow-y: auto;
 }
 .modal {
     position: absolute;
