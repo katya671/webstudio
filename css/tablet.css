@@ -38,6 +38,10 @@
         color: var(--dark-color);
         transition: color var(--tra);
     }
+    
+    .current {
+        color: var(--action-color);
+    }
 
     .header-mail,
     .header-tel {
